@@ -2,6 +2,18 @@
   "name": "react-calender",
   "version": "1.0.0",
   "scripts": {
-    "start": "echo 'Hello! package.json'"
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.17",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^3.11.3"
   }
 }
